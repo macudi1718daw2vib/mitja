@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-	float suma=0;
-	float mitja;
+	float suma=0.0;
+	float mitja=0.0;
 	float nou_valor;
 	int numero_repeticions=0;
 	char consulta="s";
 
 	while (consulta=="s"){
-		printf("Dóna la següent dada: ")
+		printf("Dóna la següent dada: ");
 		scanf("%f",nou_valor);
 		suma=suma+nou_valor;
 
